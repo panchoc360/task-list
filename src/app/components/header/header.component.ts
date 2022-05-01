@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  showAddTask: boolean = true;
+  showAddTask: boolean = false;
   subscription?: Subscription;
   title:string = 'Nuestra Lista de Tareas';
   
