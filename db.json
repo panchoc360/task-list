@@ -23,6 +23,12 @@
       "text": "Leer",
       "day": "Agosto 6 a las 12:00",
       "reminder": false
+    },
+    {
+      "text": "Terminar esta aplicación",
+      "day": "HOY!",
+      "reminder": true,
+      "id": 5
     }
   ]
 }

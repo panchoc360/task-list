@@ -26,7 +26,14 @@ this.tasks = this.tasks.filter(t => t.id !== task.id)
 )
 }
 modifyReminder(task: Task){
-  this.TaskService.modifyReminder(task).subscribe(()=>
-  task.reminder  = !task.reminder);
+  this.TaskService.modifyReminder(task).subscribe(()=>{
+  task.reminder  = !task.reminder;
+
+  })
+}
+  addTask(task: Task){
+    this.TaskService.addTask(task).subscribe((task)=>{
+      this.tasks.push(task);
+    })
   }
 }
