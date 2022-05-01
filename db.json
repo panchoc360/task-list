@@ -25,8 +25,8 @@
       "reminder": false
     },
     {
-      "text": "Terminar esta aplicación",
-      "day": "HOY!",
+      "text": "Terminar app",
+      "day": "Ya está!",
       "reminder": true,
       "id": 5
     }
